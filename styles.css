@@ -2,11 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--main-text-color);
+}
+
+:root {
+    --main-text-color: black;
+    --primary-color: rgb(228, 228, 228);
+    --secondary-color: orange;
+    --third-color: yellow;
 }
 
 header {
     border: 1px solid red;
     height:  auto;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +36,10 @@ nav {
     margin: 10px;
 }
 
+.nav-link {
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
@@ -36,8 +49,6 @@ nav {
 
 @media (max-width: 400px) {
     header {
-        background-color: black;
-        color: white;
         justify-content: center;
         flex-direction: column;
     }
