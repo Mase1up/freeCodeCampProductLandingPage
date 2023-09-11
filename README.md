@@ -13,3 +13,6 @@ Have to use a header for the top fixed nav-bar
 
     Fixed nav-bar current solution:
         I manually tested different margin pixel values to push the main content box down to where it ought to be.  Not really the solution I'd want to use, but it works for now.
+
+    Using form for input and all that:
+        I definitely don't remember the correct way to set any of this up.  I had the button laid out below, but then saw the requirement the button is inside the form, and couldn't figure out how to move it to a new line once it was in there.  I also don't recall how to submit to the proper URL, I tried entering src="" with the URL but I don't think that's correct.
