@@ -21,7 +21,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    /* Once I made it fixed, it no longer acts as a block */
     position: fixed;
+    top: 0px;
+    left: 0px; 
 }
 
 .header-img-container {
@@ -45,14 +48,21 @@ nav {
 .main-body-container {
     border: 1px solid green;
     height: 1000px;
+    margin-top: 60px;  /* Janky solution for now... */
+    padding: 10px;
 }
 
-
+/* So it's not very elegant, but I manually set the margin to
+make sure that at each adjustment the main content box gets shoved down. */
 
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
         text-align: center;
+    }
+
+    .main-body-container {
+        margin-top: 136px;
     }
 }
 
@@ -68,5 +78,9 @@ nav {
 
     .first-nav-item {
         margin-top: 15px;
+    }
+
+    .main-body-container {
+        margin-top: 119px;
     }
 }

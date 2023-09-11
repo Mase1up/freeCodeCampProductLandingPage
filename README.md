@@ -10,3 +10,6 @@ Have to use a header for the top fixed nav-bar
     Okay, I made the header position fixed, and it stopped behaving as a block item.  Now the main-content is underneath it, and I can't get it to move down.....  
 
     I also added a .page-wrapper to try and force everything to flex, but that didn't seem to do anything at all.  May want to remove that.
+
+    Fixed nav-bar current solution:
+        I manually tested different margin pixel values to push the main content box down to where it ought to be.  Not really the solution I'd want to use, but it works for now.
