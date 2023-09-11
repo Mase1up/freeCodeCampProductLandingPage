@@ -19,4 +19,6 @@ Have to use a header for the top fixed nav-bar
 
     Got the video embedded.  YouTube makes it very easy (Share -> Embed) and it copies the HTML code.
 
-    Left off after setting the headings for the Pricing section
+    Left off after setting the headings for the Pricing section.
+
+    Finished everything, and have it working in a way I'm happy with.  Time to test it and see what is working or not.  I would like to refine it a bit, but the tests that fCC wants make me care more about meeting those than aesthetics and functionality.
