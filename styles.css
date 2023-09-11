@@ -130,6 +130,22 @@ nav {
     align-items: center;
 }
 
+.pricing-price {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.pricing-text {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
 /* So it's not very elegant, but I manually set the margin to
 make sure that at each adjustment the main content box gets shoved down. */
 
