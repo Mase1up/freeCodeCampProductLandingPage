@@ -117,6 +117,17 @@ nav {
     width: 30vw;
     min-width: 180px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-heading {
+    height: 20%;
+    background-color: rgb(188, 188, 188);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* So it's not very elegant, but I manually set the margin to
