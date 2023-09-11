@@ -16,3 +16,5 @@ Have to use a header for the top fixed nav-bar
 
     Using form for input and all that:
         I definitely don't remember the correct way to set any of this up.  I had the button laid out below, but then saw the requirement the button is inside the form, and couldn't figure out how to move it to a new line once it was in there.  I also don't recall how to submit to the proper URL, I tried entering src="" with the URL but I don't think that's correct.
+
+    Got the video embedded.  YouTube makes it very easy (Share -> Embed) and it copies the HTML code.
