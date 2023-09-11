@@ -6,8 +6,47 @@
 
 header {
     border: 1px solid red;
-    height:  10vh;
+    height:  auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+}
+
+.header-img-container {
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex: 1; 
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        background-color: black;
+        color: white;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 2px;
+    }
+
+    .first-nav-item {
+        margin-top: 15px;
+    }
 }
