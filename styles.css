@@ -76,6 +76,32 @@ nav {
     width: auto;
     padding: 5px;
     font-weight: bold;
+    margin-left: 10px;
+}
+
+.features-container {
+    border: 1px solid blue;
+    margin-top: 30px;
+}
+
+.features-item {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.features-img {
+    border: 1px solid black;
+    height: 75px;
+    width: 75px;
+}
+
+.features-text {
+    margin-left: 30px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
 }
 
 /* So it's not very elegant, but I manually set the margin to
